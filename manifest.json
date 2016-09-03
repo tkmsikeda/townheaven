@@ -5,7 +5,7 @@
   "description": "TownHeavenアドオン",
   "content_scripts": [
     {
-      "matches": ["http://*/*"],
+      "matches": ["http://www.cityheaven.net/*"],
       "js": ["js/jquery-3.1.0.min.js", "js/main.js"],
       "run_at": "document_idle"
     }
